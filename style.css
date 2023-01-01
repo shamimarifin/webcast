@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ********************** TopHeader CSS ****************** */
+
+.contact ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.contact ul li{
+    float: left;
+    margin-right: 10px;
+}
+
+.contact ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #fff;
+}
+
+/****************** MainHeader************** */
+
+.logo h3{
+    letter-spacing: 0.3rem;
+    text-transform:uppercase;
+}
+
+#mainMenu nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+#mainMenu nav ul li{
+    float: left;
+    margin-right: 10px;
+}
+
+#mainMenu nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #000;
+}
+
+/* *********** Main Header ************ */
+.mainHeader{
+    padding: 10px 0px;
+ 
+}
+
+
+/********************** Banner CSS ************** */
+.bannerTitle{
+    padding-top: 180px;
+    padding-right: 100px;
+}
+
+.bannerTitle h5{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.bannerTitle h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rightImg{
+    padding-top: 90px;
+}
+
+/************************** About ********************************* */
+
+#about{
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto; 
+}
+
+.left_man img{
+    padding: 50px 0px;
+}
+
+.aboutText1{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+/************************* Service*************** */
+.rightService,
+.serviceList{
+    padding: 20px;
+}
+
+.rightService h3{
+    padding-right: 40px;
+}
+
+
+/* Service list*/
+
+.wrapper {
+    margin-bottom: 35px;
+    position: relative;
+        overflow-x:hidden;
+        
+}
+.content {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+.wrapper:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:#f4392f;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 95%;
+        
+}
+.skill2{
+    width: 80%;
+}
+
+.skill2{
+    width: 80%;
+}
+
+.skill3{
+    width: 70%;
+}
+
+.skill-bar span{
+    position: absolute;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+        
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+
+/* Contact CSS */
+
+#contact{
+    background-image: url(images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.contactSec{
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
